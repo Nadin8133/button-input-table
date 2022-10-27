@@ -1,0 +1,39 @@
+body{
+        width: 60%;
+        margin-top: 30px;
+        margin-left:auto;
+        margin-right:auto;
+        line-height: 48px;
+        font-size: 24px;
+    }
+.info{
+    margin-bottom: 20px;
+    width: 80px;
+    display: inline;
+}
+.info label{
+    width: 120px;
+    display: inline-block;
+}
+.male{
+    display: inline-flex;
+    letter-spacing: 10px;
+}
+.hobbi{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    }
+button{
+    margin-top: 25px;
+    padding-left:20px;
+    padding-right:20px;
+    line-height: 26px;
+    font-size: 20px;
+    font-weight: 150;
+    
+    
+
+
+}
+    
