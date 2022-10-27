@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="css/style.css"/>
+</head>
+<body>
+    <form>
+        <fieldset >
+            <legend>Общая информация</legend>
+            <div class="info">
+            <div>
+                <label for="surname">Фамилия</label>
+                <input id="surname" type="text" name="surname" placeholder="Иванов">
+            </div>
+            <div>
+                <label for="name">Имя</label>
+                <input id="name" type="text" name="name" placeholder="Иван">
+            </div>
+            <div>
+                <label for="second_name">Отчество</label>
+                <input id="second_name" type="text" name="second_name" placeholder="Иванович">
+            </div>
+            <div>
+                <label for="email">email</label>
+                <input id="email" type="text" name="email" placeholder="mail@mail.ru">
+            </div>
+        </div>
+        </fieldset>
+        <fieldset>
+            <legend>Пол</legend>
+            <div class="male">
+            <div>
+                <input type="radio" id="gender1" name="gender" value="male">
+                <label for="gender1">М</label>
+            </div>
+            <div>
+                <input type="radio" id="gender2" name="gender" value="famale">
+                <label for="gender2">Ж</label>
+            </div>
+        </div>
+        </fieldset>
+        <fieldset >
+            <legend>Хобби</legend>
+            <div class="hobbi">
+            <div>
+                <input id="choice1" type="checkbox" name="drawing">
+                <label for="choice1">Рисование</label>
+            </div>
+            <div>
+                <input id="choice2" type="checkbox" name="reading">
+                <label for="choice2">Чтение</label>
+            </div>
+            <div>
+                <input id="choice3" type="checkbox" name="knitting">
+                <label for="choice3">Вязание </label>
+            </div>
+            <div>
+                <input id="choice4" type="checkbox" name="cooking">
+                <label for="choice4">Кулинария</label>
+            </div>
+        </div>
+        </fieldset>
+        <div>
+        <button>Отправить</button>
+        <button>Очистить</button>
+        </div>
+    </div>
+        </form>
+</body>
+</html>
